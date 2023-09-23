@@ -129,7 +129,7 @@ for i in x:
 	print(i)
 	numero=str(i)
 	# open the web page and add the number modifier to extract from different pages from the web
-	browser.get('https://crashlibrary.com/unit/'+numero)
+	browser.get(''+numero)
 
 	# wait until some element would be in the HTML code
 	#try:
